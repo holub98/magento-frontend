@@ -1,15 +1,15 @@
 .nav {
   text-decoration: none;
-  color: black;
-  font-size: 14px;
-  font-weight: 600;
+  color: var(--color-black);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-600);
 }
 
 .nav:hover,
 .active {
-  font-size: 14px;
-  font-weight: 600;
-  color: #ecc7d0;
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-600);
+  color: var(--color-pink);
 }
 
 .menu-bar {
@@ -23,17 +23,17 @@
 
 @media (min-width: 1201px) and (max-width: 1440px) {
   .menu {
-    margin-left: 192px;
-    margin-right: 192px;
-    padding-top: 32px;
+    margin-left: var(--space-192);
+    margin-right: var(--space-192);
+    padding-top: var(--space-32);
   }
   .nav {
-    font-size: 13px;
+    font-size: var(--font-size-13);
   }
 
   .nav:hover,
   .active {
-    font-size: 13px;
+    font-size: var(--font-size-13);
   }
 }
 @media (max-width: 1200px) {

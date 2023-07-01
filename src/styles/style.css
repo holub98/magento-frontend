@@ -1,5 +1,6 @@
 @import url("../view/TopSection/top.css");
 @import url("../view/SecondSection/secondSection.css");
+@import url("./variables.css");
 body {
   margin: 0;
   padding: 0;
