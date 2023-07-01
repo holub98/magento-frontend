@@ -1,4 +1,4 @@
-const navs = document.querySelectorAll(".nav");
+const navs = document.querySelectorAll("menu-nav");
 const logo = document.querySelector(".logo");
 const hamburger = document.getElementById("button-hamburger");
 const closeButton = document.getElementById("close-nav");
