@@ -1,0 +1,9 @@
+.logo {
+  cursor: pointer;
+}
+
+.image-logo {
+  min-width: 50px;
+  max-width: 100px;
+  min-height: 20px;
+}

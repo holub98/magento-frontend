@@ -1,0 +1,16 @@
+.hamburger {
+  display: none;
+}
+.nav-mobile {
+  display: none;
+}
+.nav-trigger {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .hamburger {
+    display: flex;
+    border: none;
+    background-color: transparent;
+  }
+}
