@@ -1,7 +1,7 @@
 document.write(`
 <div class="section-contact">
   <img
-    src="../public/icons/phone.png"
+    src="./public/icons/phone.png"
     alt="phone"
     class="image-contact"
     id="phone-img"

@@ -3,17 +3,17 @@ document.write(`
   <div class="contact">
     <script
       type="text/javascript"
-      src="./view/TopSection/ContactSection/phoneSection.js"></script>
+      src="./src/view/TopSection/ContactSection/phoneSection.js"></script>
     <script
       type="text/javascript"
-      src="./view/TopSection/ContactSection/mailSection.js"></script>
+      src="./src/view/TopSection/ContactSection/mailSection.js"></script>
   </div>
   <div class="auth">
     <script
       type="text/javascript"
-      src="./view/TopSection/AuthButton/loginButton.js"></script>
+      src="./src/view/TopSection/AuthButton/loginButton.js"></script>
     <script
       type="text/javascript"
-      src="./view/TopSection/AuthButton/signUpButton.js"></script>
+      src="./src/view/TopSection/AuthButton/signUpButton.js"></script>
   </div>
 </div>`);
