@@ -30,6 +30,7 @@ window.addEventListener("resize", () => {
     navigation.classList.add("menu");
     navigation.classList.remove("menu-responsive");
     if (navigation.classList.contains("menu-responsive-animation")) {
+      navigation.classList.add("menu");
       navigation.classList.remove("menu-responsive-animation");
     }
   }
@@ -40,5 +41,9 @@ hamburger.addEventListener("click", () => {
 });
 
 closeButton.addEventListener("click", () => {
+  navigation.classList.remove("menu-responsive-animation");
+});
+
+logo.addEventListener("click", () => {
   navigation.classList.remove("menu-responsive-animation");
 });
