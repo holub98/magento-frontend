@@ -18,6 +18,7 @@ if (navs.length) {
     navs.forEach((nav) => {
       nav.classList.remove("active");
     });
+    navigation.classList.remove("menu-responsive-animation");
   });
 }
 
@@ -28,6 +29,9 @@ window.addEventListener("resize", () => {
   } else {
     navigation.classList.add("menu");
     navigation.classList.remove("menu-responsive");
+    if (navigation.classList.contains("menu-responsive-animation")) {
+      navigation.classList.remove("menu-responsive-animation");
+    }
   }
 });
 
