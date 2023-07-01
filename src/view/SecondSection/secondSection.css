@@ -1,0 +1,213 @@
+@import url("./Bracket/bracket.css");
+@import url("./Logo/logo.css");
+@import url("./Navigation/navigation.css");
+@import url("./Search/search.css");
+@import url("./HamburgerButton/hamburger.css");
+
+.second-section {
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 36px;
+  flex-direction: row;
+  position: relative;
+}
+.navigation-section {
+  display: flex;
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+}
+.search-desktop {
+  display: flex;
+}
+
+.search-mobile {
+  display: none;
+}
+.menu-responsive {
+  align-items: center;
+  z-index: 20;
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  top: 140px;
+  background-color: white;
+  overflow: hidden;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+  border-radius: 5px;
+  box-shadow: 2px 3px 20px -2px #a3a2a2;
+}
+.menu-responsive-animation {
+  width: 240px;
+  height: 250px;
+}
+
+.menu {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 48px;
+}
+
+.image-close {
+  display: none;
+}
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .second-section {
+    margin-left: 192px;
+    margin-right: 192px;
+  }
+  .menu {
+    margin-left: 192px;
+    margin-right: 192px;
+    padding-top: 32px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+  .second-section {
+    margin-left: 128px;
+    margin-right: 128px;
+  }
+  .image-close {
+    display: flex;
+    margin-left: 200px;
+    cursor: pointer;
+  }
+  .menu-responsive {
+    margin-left: 128px;
+    margin-right: 128px;
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 960px) {
+  .second-section {
+    margin-left: 96px;
+    margin-right: 96px;
+    flex-direction: row;
+  }
+  .search-desktop {
+    display: none;
+  }
+  .search-mobile {
+    display: flex;
+    padding-top: 32px;
+    z-index: -1;
+    justify-content: center;
+  }
+  .image-close {
+    margin-left: 200px;
+    display: flex;
+    cursor: pointer;
+  }
+  .menu-responsive {
+    margin-left: 96px;
+    margin-right: 96px;
+  }
+}
+@media (min-width: 601px) and (max-width: 720px) {
+  .second-section {
+    margin-left: 64px;
+    margin-right: 64px;
+    flex-direction: row;
+  }
+  .search-desktop {
+    display: none;
+  }
+  .search-mobile {
+    display: flex;
+    padding-top: 32px;
+    z-index: -1;
+    justify-content: center;
+  }
+  .image-close {
+    display: flex;
+    margin-left: 200px;
+    cursor: pointer;
+  }
+  .menu-responsive {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px) {
+  .second-section {
+    margin-left: 48px;
+    margin-right: 48px;
+    flex-direction: row;
+  }
+  .search-desktop {
+    display: none;
+  }
+  .search-mobile {
+    display: flex;
+    padding-top: 32px;
+    justify-content: center;
+    z-index: -1;
+  }
+  .image-close {
+    margin-left: 200px;
+    display: flex;
+    cursor: pointer;
+  }
+  .menu-responsive {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media (min-width: 361px) and (max-width: 480px) {
+  .second-section {
+    margin-left: 32px;
+    margin-right: 32px;
+    flex-direction: row;
+  }
+  .search-desktop {
+    display: none;
+  }
+  .search-mobile {
+    padding-top: 32px;
+    display: flex;
+    z-index: -1;
+    justify-content: center;
+  }
+  .image-close {
+    margin-left: 200px;
+    display: flex;
+    cursor: pointer;
+  }
+  .menu-responsive {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 360px) {
+  .second-section {
+    margin-left: 16px;
+    margin-right: 16px;
+    flex-direction: row;
+  }
+  .search-desktop {
+    display: none;
+  }
+  .search-mobile {
+    padding-top: 32px;
+    display: flex;
+    z-index: -1;
+    justify-content: center;
+  }
+  .image-close {
+    margin-left: 200px;
+    display: flex;
+    cursor: pointer;
+  }
+  .menu-responsive {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

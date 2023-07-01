@@ -1,0 +1,113 @@
+.button {
+  background-color: transparent;
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-login {
+  border-left: 0.5px solid #d7d7d7;
+  border-right: 0.5px solid #d7d7d7;
+}
+
+.btn-signup {
+  border-right: 0.5px solid #d7d7d7;
+  border-left: none;
+}
+
+.auth {
+  display: flex;
+  margin-right: 300px;
+}
+
+.button-text {
+  display: flex;
+}
+
+.image-auth {
+  height: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .auth {
+    margin-right: 192px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+  .auth {
+    margin-right: 128px;
+  }
+  .button {
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 960px) {
+  .auth {
+    margin-right: 96px;
+  }
+  .button-text {
+    display: none;
+  }
+  .button {
+    height: 60px;
+    width: 60px;
+  }
+}
+@media (min-width: 601px) and (max-width: 720px) {
+  .auth {
+    margin-right: 64px;
+  }
+  .button-text {
+    display: none;
+  }
+  .button {
+    height: 60px;
+    width: 60px;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px) {
+  .auth {
+    margin-right: 48px;
+  }
+  .button-text {
+    display: none;
+  }
+  .button {
+    height: 60px;
+    width: 60px;
+  }
+}
+@media (min-width: 361px) and (max-width: 480px) {
+  .auth {
+    margin-right: 32px;
+  }
+  .button-text {
+    display: none;
+  }
+  .button {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 360px) {
+  .auth {
+    margin-right: 16px;
+  }
+  .button-text {
+    display: none;
+  }
+  .button {
+    height: 60px;
+    width: 60px;
+  }
+}

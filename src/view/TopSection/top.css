@@ -1,0 +1,15 @@
+@import url("./AuthButton/auth.css");
+@import url("./ContactSection/contact.css");
+
+.top {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.5px solid #d7d7d7;
+}
+@media only screen and (max-width: 1200px) {
+  .top {
+    height: 60px;
+  }
+}
