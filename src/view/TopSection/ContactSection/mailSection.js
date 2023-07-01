@@ -1,7 +1,7 @@
 document.write(`
 <div class="section-contact">
   <img
-    src="../public/icons/mail.png"
+    src="./public/icons/mail.png"
     alt="mail"
     class="image-contact"
     id="mail-img"
