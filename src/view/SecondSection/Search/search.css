@@ -29,12 +29,12 @@
   width: 100%;
   text-align: start;
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--color-black);
   height: 100%;
 }
 
 ::placeholder {
-  color: #a3a2a2;
+  color: var(--color-gray);
 }
 .field-search:focus {
   outline: none;
@@ -63,7 +63,7 @@
 }
 @media (min-width: 361px) and (max-width: 480px) {
   .searching {
-    width: 300px;
+    width: var(--space-300);
   }
 }
 

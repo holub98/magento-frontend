@@ -1,0 +1,23 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-pink: #ecc7d0;
+  --color-neutral: #d7d7d7;
+  --color-gray: #a3a2a2;
+
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --space-128: 128px;
+  --space-192: 192px;
+  --space-300: 300px;
+
+  --font-size-11: 11px;
+  --font-size-13: 13px;
+  --font-size-14: 14px;
+
+  --font-weight-600: 600;
+}
