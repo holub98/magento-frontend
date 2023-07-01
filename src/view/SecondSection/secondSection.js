@@ -21,7 +21,7 @@ document.write(`
       type="text/javascript"
       src="./view/SecondSection/Search/search.js"></script>
   </div>
-  <nav class="menu-responsive" id="navigation">
+  <nav class="menu" id="navigation">
     <img
       src="../public/icons/close.png"
       alt="close"
