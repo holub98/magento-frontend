@@ -35,6 +35,17 @@ window.addEventListener("resize", () => {
     }
   }
 });
+if (screen.width <= 1200 || window.innerWidth <= 1200) {
+  navigation.classList.remove("menu");
+  navigation.classList.add("menu-responsive");
+} else {
+  navigation.classList.add("menu");
+  navigation.classList.remove("menu-responsive");
+  if (navigation.classList.contains("menu-responsive-animation")) {
+    navigation.classList.add("menu");
+    navigation.classList.remove("menu-responsive-animation");
+  }
+}
 
 hamburger.addEventListener("click", () => {
   navigation.classList.add("menu-responsive-animation");

@@ -32,3 +32,17 @@ window.addEventListener("resize", () => {
     number.classList.remove("text-phone-animated");
   }
 });
+
+if (screen.width <= 960 || window.innerWidth <= 960) {
+  address.classList.remove("text-display");
+  number.classList.remove("text-display");
+  address.classList.add("text-contact-responsive");
+  number.classList.add("text-contact-responsive");
+} else {
+  address.classList.add("text-display");
+  number.classList.add("text-display");
+  address.classList.remove("text-contact-responsive");
+  number.classList.remove("text-contact-responsive");
+  address.classList.remove("text-address-animated");
+  number.classList.remove("text-phone-animated");
+}
