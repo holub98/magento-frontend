@@ -1,8 +1,8 @@
 .contact {
   display: flex;
   flex-direction: row;
-  gap: 8px;
-  margin-left: 300px;
+  gap: var(--space-8);
+  margin-left: var(--space-300);
 }
 
 .text-contact-responsive {
@@ -27,7 +27,7 @@
 .section-contact {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .image-contact {
@@ -37,36 +37,36 @@
 
 @media (min-width: 1201px) and (max-width: 1440px) {
   .contact {
-    margin-left: 192px;
+    margin-left: var(--space-192);
   }
 }
 @media (min-width: 961px) and (max-width: 1200px) {
   .contact {
-    margin-left: 128px;
+    margin-left: var(--space-128);
   }
 }
 
 @media only screen and (min-width: 721px) and (max-width: 960px) {
   .contact {
-    margin-left: 96px;
+    margin-left: var(--space-96);
   }
 }
 @media (min-width: 601px) and (max-width: 720px) {
   .contact {
-    margin-left: 64px;
+    margin-left: var(--space-64);
   }
 }
 @media (min-width: 481px) and (max-width: 600px) {
   .contact {
-    margin-left: 48px;
+    margin-left: var(--space-32);
   }
 }
 @media (min-width: 360px) and (max-width: 480px) {
   .contact {
-    margin-left: 32px;
+    margin-left: var(--space-32);
   }
   .text-contact-responsive {
-    font-size: 11px;
+    font-size: var(--font-size-11);
   }
   .text-mail-animated {
     width: 100px;
@@ -78,10 +78,10 @@
 
 @media (min-width: 120px) and (max-width: 359px) {
   .contact {
-    margin-left: 16px;
+    margin-left: var(--space-16);
   }
   .text-contact-responsive {
-    font-size: 11px;
+    font-size: var(--font-size-11);
   }
   .text-mail-animated {
     width: 100px;
