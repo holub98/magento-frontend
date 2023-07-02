@@ -10,9 +10,9 @@
   width: 0px;
   height: 18px;
   text-align: left;
-  -webkit-transition: all 1.5s ease;
-  -moz-transition: all 1.5s ease;
-  transition: all 1.5s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
 }
 .text-display {
   display: flex;
