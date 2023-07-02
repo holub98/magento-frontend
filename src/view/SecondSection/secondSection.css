@@ -1,9 +1,10 @@
-@import url("./Bracket/bracket.css");
+@import url("./basket/basket.css");
 @import url("./Logo/logo.css");
 @import url("./Navigation/navigation.css");
 @import url("./Search/search.css");
 @import url("./HamburgerButton/hamburger.css");
 
+/* section with logo, search, basket and navigation */
 .second-section {
   display: flex;
   margin-left: var(--space-300);
@@ -14,20 +15,18 @@
   flex-direction: row;
   position: relative;
 }
-.navigation-section {
-  display: flex;
-}
-.middle-section {
-  display: flex;
-  flex-direction: column;
-}
+
+/* search input on desktop size */
 .search-desktop {
   display: flex;
 }
 
+/* search input on mobile size */
 .search-mobile {
   display: none;
 }
+
+/* view of responsive menu */
 .menu-responsive {
   align-items: center;
   z-index: 20;
@@ -43,22 +42,28 @@
   border-radius: 5px;
   box-shadow: 2px 3px 20px -2px var(--color-gray);
 }
+
+/* responisve menu animation */
 .menu-responsive-animation {
   width: 200px;
   height: 50vh;
   max-height: 240px;
 }
 
+/* margin of menu */
 .menu {
   margin-left: var(--space-300);
   margin-right: var(--space-300);
   padding-top: var(--space-48);
 }
 
+/* close responsive menu */
 .image-close {
   display: none;
   margin-top: 10px;
 }
+
+/* different view depend on screen size */
 @media (min-width: 1201px) and (max-width: 1440px) {
   .second-section {
     margin-left: var(--space-192);

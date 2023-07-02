@@ -1,12 +1,9 @@
+/* icon to open responsive MENU */
 .hamburger {
   display: none;
 }
-.nav-mobile {
-  display: none;
-}
-.nav-trigger {
-  display: none;
-}
+
+/* icon is visible under 1200px */
 @media (max-width: 1200px) {
   .hamburger {
     display: flex;

@@ -1,20 +1,23 @@
+/* logo auroraBox cursor pointer */
 .logo {
   cursor: pointer;
 }
 
+/* in desktop design logo size is 100% */
 .logo-image {
   width: 100%;
   height: 100%;
 }
 
-@media screen and (min-width: 960px) and (max-width: 1200px) {
+/* change logo size depens on screen size */
+@media (min-width: 960px) and (max-width: 1200px) {
   .logo-image {
     width: 100px;
     height: 50px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .logo-image {
     width: 100px;
     height: 50px;

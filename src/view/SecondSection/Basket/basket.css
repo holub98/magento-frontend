@@ -1,4 +1,5 @@
-.bracket {
+/* button basket*/
+.basket {
   display: flex;
   gap: var(--space-8);
   font-weight: var(--font-weight-600);
@@ -9,7 +10,8 @@
   cursor: pointer;
 }
 
-.bracket-element-number {
+/* number of items in basket */
+.basket-element-number {
   height: 20px;
   width: 20px;
   background-color: var(--color-pink);
@@ -24,14 +26,16 @@
   align-items: center;
 }
 
-.bracket-elements {
+/* basket view */
+.basket-elements {
   position: relative;
   display: flex;
   align-items: end;
   justify-content: end;
 }
 
-.bracket-text {
+/* basket text */
+.basket-text {
   display: flex;
   color: var(--color-black);
 }

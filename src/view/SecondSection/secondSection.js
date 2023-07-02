@@ -14,7 +14,7 @@ document.write(`
     </div>
     <script
       type="text/javascript"
-      src="./src/view/SecondSection/Bracket/bracketButton.js"></script>
+      src="./src/view/SecondSection/Basket/basketButton.js"></script>
   </div>
   <div class="search-mobile">
     <script
