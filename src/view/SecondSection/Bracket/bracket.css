@@ -33,4 +33,5 @@
 
 .bracket-text {
   display: flex;
+  color: var(--color-black);
 }
