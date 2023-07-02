@@ -1,3 +1,4 @@
+/* button to login and signup */
 .button {
   background-color: transparent;
   border: none;
@@ -11,30 +12,37 @@
   justify-content: center;
   gap: var(--space-8);
 }
+
+/* button login */
 .btn-login {
   border-left: 0.5px solid var(--color-neutral);
   border-right: 0.5px solid var(--color-neutral);
 }
 
+/* button signup */
 .btn-signup {
   border-right: 0.5px solid var(--color-neutral);
   border-left: none;
 }
 
+/* section with buttons login and signup */
 .auth {
   display: flex;
   margin-right: var(--space-300);
 }
 
+/* text in button */
 .button-text {
   display: flex;
 }
 
+/* icons in button */
 .image-auth {
   height: 20px;
   cursor: pointer;
 }
 
+/* buttons view depend on screen size */
 @media (min-width: 1201px) and (max-width: 1440px) {
   .auth {
     margin-right: var(--space-192);

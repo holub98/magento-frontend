@@ -4,6 +4,7 @@ const hamburger = document.getElementById("button-hamburger");
 const closeButton = document.getElementById("close-nav");
 const navigation = document.getElementById("navigation");
 
+// change color of navigation when active
 if (navs.length) {
   navs.forEach((nav) => {
     nav.addEventListener("click", (e) => {
@@ -22,6 +23,7 @@ if (navs.length) {
   });
 }
 
+// function to change view from desktp to mobile and vice versa
 const changeNavigationToResponsive = () => {
   if (screen.width <= 1200 || window.innerWidth <= 1200) {
     navigation.classList.remove("menu");
@@ -35,19 +37,24 @@ const changeNavigationToResponsive = () => {
     }
   }
 };
+
+// change view if size of screen was change
 window.addEventListener("resize", () => {
   changeNavigationToResponsive();
 });
 changeNavigationToResponsive();
 
+// mobile menu after click
 hamburger.addEventListener("click", () => {
   navigation.classList.add("menu-responsive-animation");
 });
 
+// close mobile menu after click
 closeButton.addEventListener("click", () => {
   navigation.classList.remove("menu-responsive-animation");
 });
 
+// close mobile menu after click on logo
 logo.addEventListener("click", () => {
   navigation.classList.remove("menu-responsive-animation");
 });

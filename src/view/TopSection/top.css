@@ -1,6 +1,7 @@
 @import url("./AuthButton/auth.css");
 @import url("./ContactSection/contact.css");
 
+/* top section view */
 .top {
   display: flex;
   height: 40px;
@@ -8,6 +9,7 @@
   justify-content: space-between;
   border: 0.5px solid var(--color-neutral);
 }
+/* top section view depends on screen size */
 @media (max-width: 1200px) {
   .top {
     height: 60px;
